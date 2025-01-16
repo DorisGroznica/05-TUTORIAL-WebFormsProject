@@ -100,7 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="BazaAutomatsko.aspx" />
     <Content Include="BazaConnected.aspx" />
+    <Content Include="BazaDisconnected.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -193,12 +195,26 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BazaAutomatsko.aspx.cs">
+      <DependentUpon>BazaAutomatsko.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BazaAutomatsko.aspx.designer.cs">
+      <DependentUpon>BazaAutomatsko.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BazaConnected.aspx.cs">
       <DependentUpon>BazaConnected.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="BazaConnected.aspx.designer.cs">
       <DependentUpon>BazaConnected.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BazaDisconnected.aspx.cs">
+      <DependentUpon>BazaDisconnected.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BazaDisconnected.aspx.designer.cs">
+      <DependentUpon>BazaDisconnected.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

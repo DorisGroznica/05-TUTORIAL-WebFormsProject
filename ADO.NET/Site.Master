@@ -16,6 +16,10 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <li class="nav-item"><a class="nav-link" runat="server"
 href="~/BazaConnected">Baza</a></li>
+    <li class="nav-item"><a class="nav-link" runat="server" href="~/BazaDisconnected">Baza 
+Disconnected</a></li>
+    <li class="nav-item"><a class="nav-link" runat="server" href="~/BazaAutomatsko">Baza 
+Automatsko</a></li>
 </head>
 <body>
     <form runat="server">
